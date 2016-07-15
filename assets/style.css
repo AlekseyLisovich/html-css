@@ -43,6 +43,7 @@ body {
     font-weight: bold;
 }
 .t2{
+  min-width: 200px;
   margin-top: 10px;
   position: relative;
   bottom: -25px;
@@ -52,6 +53,7 @@ body {
   color: #DAE0E2;
 }
 .t3{
+  min-width: 200px;
   position: relative;
   bottom: -25px;
   font-size: 16pt;
@@ -124,7 +126,8 @@ body {
 
 
 .content{
-  min-height: 770px;
+  height: auto;
+  height: 770px;
   width: 60%;
 }
 .l1{
@@ -181,17 +184,19 @@ body {
   transition: 0.2s;
 }
 .people1-content{
-  min-width: 300px;
+
+  min-width: 400px;
   margin-top: 30px;
+  margin-right: 4%;
   float: left;
-  position: relative;
-  width: 47%;
+  width: 48%;
 }
 .people2-content{
+  min-width: 400px;
   margin-top: 30px;
-  float: right;;
-  position: relative;
-  width: 47%;
+  float: right;
+  float: left;
+  width: 48%;
 }
 .img-context{
   float: left;
@@ -231,9 +236,10 @@ footer{
   margin-right: 15px;
 }
 .footer-left{
+  min-width: 300px;
   float: left;
   margin-top: 50px;
-  min-height: 100px;
+  height: 100px;
   width: 50%;
 
 }
@@ -246,14 +252,17 @@ footer{
 .footer-t2{
    font-size: 10pt;
 }
+.footer-check{
+  float: left;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+}
 input {
-  position: relative;
-  left: -58px;
-  margin-top: 20px;
   margin-right: 10px;
   float: left;
-	width: 400px;
-	font-size: 13px;
+	width: 75%;
+	font-size: 15px;
 	padding: 6px 0 4px 10px;
 	border: 1px solid #597275;
 	background: #597275;
@@ -270,16 +279,16 @@ input {
   font-size: 11px;
 	border-radius: 6px;
 	padding: 8px ;
-	width: 70px;
-  height: 28px;
+	width: 15%;
 }
 .link-footer{
   color: #ffffff;
 }
 .footer-right{
+  min-width: 300px;
   float: left;
   margin-top: 50px;
-  min-height: 100px;
+  height: 100px;
   width: 50%;
   background-color: #597275;
   border-radius: 5px;
@@ -305,6 +314,7 @@ input {
   width: 60%;
 }
 .footer-info{
+    min-width: 300px;
     float: left;
     width: 33%;
     height: 130px;
