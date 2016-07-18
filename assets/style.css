@@ -10,6 +10,7 @@ body {
 .logo{
     width: 100%;
     height: 400px;
+    min-width: 380px;
 }
 .logo-img{
   width: 100%;
@@ -29,13 +30,14 @@ body {
   color: #EF6C00;
 }
 .ar{
-  font-size: 20px;
+  font-size: 26px;
   color: #FFFFFF;
   position: relative;
-  bottom: 45px;
+  bottom: 50px;
 }
 .menu{
   height: 500px;
+  min-width: 380px;
 }
 .menu-text{
     height: 100px;
@@ -119,7 +121,7 @@ body {
   border-right: 1px solid #B0BEC5;
 }
 .block4{
-  float: left;;
+  float: left;
   width: 33%;
 }
 .button-menu{
@@ -139,7 +141,7 @@ body {
 
 .content{
   height: auto;
-  height: 800px;;
+  height: 750px;
   width: 60%;
 }
 .l1{
@@ -170,7 +172,9 @@ body {
   width: 24%;
   height: 140px;
   border-radius: 4px;
-  object-fit: cover;
+}
+.oranges{
+  min-width: 380px;
 }
 .orange1{
     margin-right: 1.33%;
@@ -182,6 +186,7 @@ body {
   margin-right: 1.33%;
 }
 .button-content{
+  font-size: 16px;
   display: inline-block;
   margin-top: 30px;
   color: white;
@@ -198,15 +203,14 @@ body {
 .button-content:hover { background: #E65100; border-color: #E65100; cursor: pointer;}
 
 .people1-content{
-
-  min-width: 300px;
+  min-width: 380px;
   margin-top: 30px;
   margin-right: 4%;
   float: left;
   width: 48%;
 }
 .people2-content{
-  min-width: 300px;
+  min-width: 380px;
   margin-top: 30px;
   float: right;
   float: left;
@@ -217,17 +221,25 @@ body {
   object-fit: cover;
 }
 .img-context{
-  margin-right: 25px;
-  width: 23%;
   float: left;
-  height: 100px;
-  object-fit: cover;
+}
+.part1{
+  position: relative;
+  bottom: 0px;
+  float: left;
+  height: 100%;
+  width: 25%;
+}
+.part2{
+  float: right;
+  width: 75%;
 }
 .t1-content{
   color: #637F83;
   font-size: 12pt;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 .t2-content{
   font-weight: bold;
@@ -293,7 +305,6 @@ input {
 	background: #597275;
   color: #ffffff;
   font-weight: bold;
-
   font-size: 11px;
 	border-radius: 6px;
 	padding: 8px ;
@@ -318,9 +329,9 @@ input {
 }
 .footer-t3{
   line-height: 1.5;
- font-size: 14px;
- margin: 10px;
- color: #9CB0B2;
+  font-size: 14px;
+  margin: 10px;
+  color: #9CB0B2;
 }
 .footer-down{
     height: 130px;
@@ -331,7 +342,6 @@ input {
   width: 60%;
 }
 .footer-info{
-    min-width: 300px;
     float: left;
     width: 33%;
     height: 130px;
@@ -369,8 +379,20 @@ input {
 }
 .down-line{
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: #637F83;
+}
+.footer-t5{
+  padding-top: 7px;
+  font-weight: bold;
+   font-size: 12pt;
+   margin-bottom: 5px;
+}
+.footer-t6{
+   font-size: 10pt;
+}
+@media screen and (max-width: 1980px) {
+  .img-context{height: 100px;}
 }
 @media screen and (max-width: 1680px) {
   .menu{height: 500px;}
@@ -384,6 +406,7 @@ input {
  .m2 {font-size: 15px;}
  .m3 {font-size: 16px;}
  .content {height: 750px;}
+ .ar{font-size: 24px; bottom: 50px;}
  .img-context {height: 100px;}
  .footer-text {height: 150px;}
  .footer-left {height: 100px;}
@@ -402,7 +425,8 @@ input {
  .footer-t3{font-size: 14px;}
  .footer-t4{font-size: 20pt;}
  .footer-down{height: 130px;}
- .ar{bottom: 45px;}
+ .button-content{font-size: 10pt;}
+ .content{height: 750px;}
 }
 @media screen and (max-width: 1440px) {
   .menu{height: 450px;}
@@ -416,6 +440,7 @@ input {
  .m3 {font-size: 9px;}
  .content {height: 750px;}
  .footer-text {height: 200px;}
+ .ar{font-size: 23px;; bottom: 45px;}
  .footer-right {height: 120px;}
  .facebook-icon {font-size: 24px;}
  .circle{width: 62px; height: 62px; border-radius: 62px;}
@@ -431,10 +456,10 @@ input {
  .footer-t3{font-size: 13px;}
  .footer-t4{font-size: 18pt;}
  .footer-down{height: 130px;}
- .footer-down{height: 260px;}
- .ar{bottom: 40px;}
+ .button-content{font-size: 10pt;}
+ .content{height: 750px;}
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1280px) {
   .menu{height: 400px;}
   .logo-img{height: 300px;}
   .logo-text{bottom: 270px;}
@@ -446,23 +471,27 @@ input {
  .m2 {font-size: 11px;}
  .m3 {font-size: 9px;}
  .footer-right {height: 100px;}
- .content {height: 1100px;}
+ .content {height: 1075px;}
  .img-context {height: 90px;}
  .footer-text {height: 300px;}
  .facebook-icon {font-size: 22px;}
  .circle{width: 58px; height: 58px; border-radius: 58px;}
  .footer-info{height: 100px;}
+ .ar{font-size: 22px;; bottom: 37px;}
  .t0{font-size: 10pt;}
  .t1{font-size: 14pt;}
  .t2{font-size: 10pt;}
  .t3{font-size: 14pt;}
  .blocks{height: 300px;}
  .button-menu {padding: .3em 1.4em;}
- .facebook-icon{margin: 15px;}
  .footer-icon{font-size: 42px;}
  .footer-t3{font-size: 12px;}
  .footer-t4{font-size: 16pt;}
- .ar{bottom: 35px;}
+ .button-content{font-size: 8pt;}
+  .people1-content{width: 100%;}
+  .people2-content{width: 100%;}
+  .content{height: 950px;}
+
 }
 @media screen and (max-width: 1024px) {
   .menu{height: 350px;}
@@ -479,7 +508,7 @@ input {
  .footer-text {height: 330px;}
  .footer-right {height: 90px;}
  .facebook-icon {font-size: 20px;}
- .circle{width: 50px; height: 50px; border-radius: 50px;}
+ .ar{font-size: 20px;; bottom: 35px;}
  .footer-info{height: 80px;}
  .t0{font-size: 9pt;}
  .t1{font-size: 13pt;}
@@ -487,10 +516,16 @@ input {
  .t3{font-size: 13pt;}
  .blocks{height: 250px;}
  .button-menu {padding: .3em 1.1em;}
- .facebook-icon{margin: 14px;}
  .footer-t3{font-size: 11px;}
  .footer-t4{font-size: 15pt;}
- .ar{bottom: 33px;}
+ .button-content{font-size: 7pt;}
+ .content {height: 900px;}
+ .footer-t5{
+   visibility: hidden;
+ }
+ .footer-t6{
+   visibility: hidden;
+ }
 }
 @media screen and (max-width: 800px) {
   .menu{height: 300px;}
@@ -506,16 +541,42 @@ input {
  .img-context {height: 80px;}
  .footer-text {height: 350px;}
  .facebook-icon {font-size: 18px;}
- .circle{width: 44px; height: 44px; border-radius: 44px;}
  .footer-info{height: 70px;}
  .t0{font-size: 8pt;}
  .t1{font-size: 12pt;}
+ .ar{font-size: 18px;; bottom: 28px;}
  .t2{font-size: 8pt;}
  .t3{font-size: 12pt;}
  .blocks{height: 200px;}
  .button-menu {padding: .2em 0.8em;}
- .facebook-icon{margin: 13px;}
  .footer-t3{font-size: 10px;}
  .footer-t4{font-size: 12pt;}
- .ar{bottom: 30px;}
-}
+ .part1{bottom: -20px;}
+ .content {height: 940px;}
+ }
+ @media screen and (max-width: 340px) {
+   .menu{height: 300px;}
+   .logo-img{height: 200px;}
+   .logo-text{bottom: 190px;}
+   .logo-arrow{bottom: 185px; font-size: 32px;}
+   .logo{height: 200px;}
+  .origin {height: 80px;}
+  .button-content{width: 100px;}
+  .m1 {font-size: 42px;}
+  .m2 {font-size: 10px;}
+  .m3 {font-size: 8px;}
+  .img-context {height: 80px;}
+  .footer-text {height: 350px;}
+  .facebook-icon {font-size: 18px;}
+  .footer-info{height: 100px;}
+  .t0{font-size: 8pt;}
+  .t1{font-size: 12pt;}
+  .ar{font-size: 18px;; bottom: 28px;}
+  .t2{font-size: 8pt;}
+  .t3{font-size: 12pt;}
+  .blocks{height: 200px;}
+  .button-menu {padding: .2em 0.8em;}
+  .footer-t3{font-size: 10px;}
+  .footer-t4{font-size: 12pt;}
+  .part1{bottom: -20px;}
+  }
