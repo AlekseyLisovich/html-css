@@ -372,3 +372,150 @@ input {
   height: 30px;
   background-color: #637F83;
 }
+@media screen and (max-width: 1680px) {
+  .menu{height: 500px;}
+ .logo-img{height: 400px;}
+ .logo-text{bottom: 350px;}
+ .logo-arrow{bottom: 330px;}
+ .logo{height: 400px;}
+ .origin {height: 140px;}
+ .button-content{width: 140px;}
+ .m1 {font-size: 96px;}
+ .m2 {font-size: 15px;}
+ .m3 {font-size: 16px;}
+ .content {height: 750px;}
+ .img-context {height: 100px;}
+ .footer-text {height: 150px;}
+ .footer-left {height: 100px;}
+ .footer-right {height: 100px;}
+ .facebook-icon {font-size: 26px;}
+ .circle{width: 66px; height: 66px; border-radius: 66px;}
+ .footer-info{height: 130px;}
+ .t0{font-size: 12pt;}
+ .t1{font-size: 16pt;}
+ .t2{font-size: 12pt;}
+ .t3{font-size: 16pt;}
+ .blocks{height: 400px;}
+ .button-menu {padding: .5em 2em;}
+ .facebook-icon{margin: 17px;}
+ .footer-icon{font-size: 56px;}
+ .footer-t3{font-size: 14px;}
+ .footer-t4{font-size: 20pt;}
+ .footer-down{height: 130px;}
+ .ar{bottom: 45px;}
+}
+@media screen and (max-width: 1440px) {
+  .menu{height: 450px;}
+ .logo-img{height: 350px;}
+ .logo-text{bottom: 310px;}
+ .logo-arrow{bottom: 290px; font-size: 52px;}
+ .logo{height: 350px;}
+ .img-context {height: 95px;}
+ .m1 {font-size: 86px;}
+ .m2 {font-size: 11px;}
+ .m3 {font-size: 9px;}
+ .content {height: 750px;}
+ .footer-text {height: 200px;}
+ .footer-right {height: 120px;}
+ .facebook-icon {font-size: 24px;}
+ .circle{width: 62px; height: 62px; border-radius: 62px;}
+ .footer-info{height: 120px;}
+ .t0{font-size: 11pt;}
+ .t1{font-size: 15pt;}
+ .t2{font-size: 11pt;}
+ .t3{font-size: 15pt;}
+ .blocks{height: 350px;}
+ .button-menu {padding: .4em 1.7em;}
+ .facebook-icon{margin: 16px;}
+ .footer-icon{font-size: 48px;}
+ .footer-t3{font-size: 13px;}
+ .footer-t4{font-size: 18pt;}
+ .footer-down{height: 130px;}
+ .footer-down{height: 260px;}
+ .ar{bottom: 40px;}
+}
+@media screen and (max-width: 1100px) {
+  .menu{height: 400px;}
+  .logo-img{height: 300px;}
+  .logo-text{bottom: 270px;}
+  .logo-arrow{bottom: 250px; font-size: 44px;}
+  .logo{height: 300px;}
+ .origin {height: 120px;}
+ .button-content{width: 120px;}
+ .m1 {font-size: 72px;}
+ .m2 {font-size: 11px;}
+ .m3 {font-size: 9px;}
+ .footer-right {height: 100px;}
+ .content {height: 1100px;}
+ .img-context {height: 90px;}
+ .footer-text {height: 300px;}
+ .facebook-icon {font-size: 22px;}
+ .circle{width: 58px; height: 58px; border-radius: 58px;}
+ .footer-info{height: 100px;}
+ .t0{font-size: 10pt;}
+ .t1{font-size: 14pt;}
+ .t2{font-size: 10pt;}
+ .t3{font-size: 14pt;}
+ .blocks{height: 300px;}
+ .button-menu {padding: .3em 1.4em;}
+ .facebook-icon{margin: 15px;}
+ .footer-icon{font-size: 42px;}
+ .footer-t3{font-size: 12px;}
+ .footer-t4{font-size: 16pt;}
+ .ar{bottom: 35px;}
+}
+@media screen and (max-width: 1024px) {
+  .menu{height: 350px;}
+  .logo-img{height: 250px;}
+  .logo-text{bottom: 230px;}
+  .logo-arrow{bottom: 220px; font-size: 38px;}
+  .logo{height: 250px;}
+ .origin {height: 100px;}
+ .button-content{width: 100px;}
+ .m1 {font-size: 56px;}
+ .m2 {font-size: 10px;}
+ .m3 {font-size: 8px;}
+ .img-context {height: 85px;}
+ .footer-text {height: 330px;}
+ .footer-right {height: 90px;}
+ .facebook-icon {font-size: 20px;}
+ .circle{width: 50px; height: 50px; border-radius: 50px;}
+ .footer-info{height: 80px;}
+ .t0{font-size: 9pt;}
+ .t1{font-size: 13pt;}
+ .t2{font-size: 9pt;}
+ .t3{font-size: 13pt;}
+ .blocks{height: 250px;}
+ .button-menu {padding: .3em 1.1em;}
+ .facebook-icon{margin: 14px;}
+ .footer-t3{font-size: 11px;}
+ .footer-t4{font-size: 15pt;}
+ .ar{bottom: 33px;}
+}
+@media screen and (max-width: 800px) {
+  .menu{height: 300px;}
+  .logo-img{height: 200px;}
+  .logo-text{bottom: 190px;}
+  .logo-arrow{bottom: 185px; font-size: 32px;}
+  .logo{height: 200px;}
+ .origin {height: 80px;}
+ .button-content{width: 100px;}
+ .m1 {font-size: 42px;}
+ .m2 {font-size: 10px;}
+ .m3 {font-size: 8px;}
+ .img-context {height: 80px;}
+ .footer-text {height: 350px;}
+ .facebook-icon {font-size: 18px;}
+ .circle{width: 44px; height: 44px; border-radius: 44px;}
+ .footer-info{height: 70px;}
+ .t0{font-size: 8pt;}
+ .t1{font-size: 12pt;}
+ .t2{font-size: 8pt;}
+ .t3{font-size: 12pt;}
+ .blocks{height: 200px;}
+ .button-menu {padding: .2em 0.8em;}
+ .facebook-icon{margin: 13px;}
+ .footer-t3{font-size: 10px;}
+ .footer-t4{font-size: 12pt;}
+ .ar{bottom: 30px;}
+}
